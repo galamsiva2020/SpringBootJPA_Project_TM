@@ -7,13 +7,13 @@
 node{
     def scannerHome
     stage('SCM Checkout'){
-        git ''
+        git 'https://github.com/galamsiva2020/SpringBootJPA_Project_TM.git'
 }
     
     stage('maven-build'){
         //Get maven home path
-        //def mvnHome = tool name: 'maven-3', type:'maven'
-        mvnHome ='D:/GALAM/SivaDevopsSoftwares/apache-maven-3.6.0-bin/apache-maven-3.6.0'
+        //def mvnHome = tool name: 'maven-4', type:'maven'
+        mvnHome ='D:/GALAM/SivaDevopsSoftwares/apache-maven-4.0-bin/apache-maven-4.0'
         //sh "${mvnHome}/bin/mvn package"
 }
     
