@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootCRUDApplicationExample
+Implementation-Version: 1.0.0
+Built-By: siva
+Implementation-Vendor-Id: com.java.jpa.springboot
+Build-Jdk: 1.8.0_192
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBootCR
+ UDApplicationExample/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
